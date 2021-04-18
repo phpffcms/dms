@@ -1,0 +1,22 @@
+{
+    "name": "phpffcms/dms",
+    "description": "Simple document management system for incoming/outcoming letters",
+    "type": "library",
+    "keywords": ["php", "ffcms", "app", "dms", "document system"],
+    "homepage": "https://pmcore.ru",
+    "license": "MIT",
+    "authors": [{
+        "name": "Piatinskii M.M.",
+        "email": "zenn1989@gmail.com",
+        "homepage": "https://pmcore.ru"
+    }],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apps\\": "src/Apps/",
+            "Widgets\\": "src/Widgets/"
+        }
+    }
+}
